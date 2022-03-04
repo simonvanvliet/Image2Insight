@@ -1,5 +1,6 @@
 # Computational image analysis: transforming images into insights
 Simon van Vliet, Biozentrum, University Basel
+
 Alma Dal Co, Department of Computational Biology, University of Lausanne 
 
 This repository contains worksheets and documentations used in the 
