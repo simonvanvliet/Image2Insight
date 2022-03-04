@@ -45,7 +45,7 @@ jupyter-lab
 ---
 
 ## Create new Conda Environment
-- For each project we will use a seperate conda environment. 
+- For each project we will use a separate conda environment. 
 - You can create a new conda environment with the following command:
 
 ```
@@ -57,6 +57,9 @@ conda create --name [environment_name] [list of packages to install]
 ```
 conda create --name i2i_p0_env python=3.9 ipykernel numpy scipy scikit-image matplotlib
 ```
+
+- Note: to be able to use the environment within Jupyter you need to install the `ipykernel` package
+
 
 ### Test new Conda Environment
 - Open Jupyter Labs as described above
@@ -70,15 +73,14 @@ conda create --name i2i_p0_env python=3.9 ipykernel numpy scipy scikit-image mat
 
 ## Notes  
 ### Trouble shooting
-- If you have trouble installing Jupyter in the base environment (e.g. because you are using an older Conda instalation)
-    - Install Jupyter instead seperately in each virtual environment, using: 
+- If you have trouble installing Jupyter in the base environment (e.g. because you are using an older Conda installation),install Jupyter instead separately in each virtual environment, using: 
     
 ```
 conda activate [environment_name]
 pip install jupyterlab
 ```
 
-    - Then open Jupyter from within the desired environment, using:
+- Then open Jupyter from within the desired environment, using:
     
 ```
 conda activate [environment_name]
