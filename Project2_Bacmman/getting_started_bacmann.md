@@ -17,7 +17,7 @@ Choose menu command: `Dataset > New Dataset from Online Library`.
 
 Set `jeanollion` as `username` in the `Github Credentials` panel (if not already entered), and select the configuration `ExampleDatasets > dataset1_distnet` 
 
-Important: select the data set with "_distnet" at the end (the image is incorrect)!
+**Important: select the data set with "_distnet" at the end (the image is incorrect)!**
 
 ![](https://github.com/jeanollion/bacmman/wiki/resources/tuto_distnet/2_select_ds.png)
 
@@ -47,7 +47,7 @@ To run pre-processing
 * Select the task: `Pre-Processing` 
 * Choose the menu command `Run > Run Selected Tasks`
 
-Important: only select `Pre-Processing` at this stage (the image is incorrect)!
+**Important: only select `Pre-Processing` at this stage (the image is incorrect)!**
 
 
 ![](https://github.com/jeanollion/bacmman/wiki/resources/tuto_distnet/5_run_pp_mc.png)
@@ -76,7 +76,7 @@ To download them:
 * Select the task: `Segmentation & Tracking`
 * Choose the menu command `Run > Run Selected Tasks`
 
-Important: only select `Segmentation & Tracking` at this stage (the image below is incorrect)!
+**Important: only select `Segmentation & Tracking` at this stage (the image below is incorrect)!**
 ![](https://github.com/jeanollion/bacmman/wiki/resources/tuto_distnet/5_run_pp_mc.png)
 
 ## Check micro-channel segmentation and tracking
