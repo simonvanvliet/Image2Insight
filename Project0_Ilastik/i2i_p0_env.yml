@@ -1,0 +1,17 @@
+name: i2i_p0_env_2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy=1.22.2
+  - python=3.9.10
+  - scipy=1.8.0
+  - scikit-image=0.19.2
+  - matplotlib=3.5.1
+  - ipykernel=6.9.1
+  - napari=0.4.14
+  - dask-image=2021.12.0
+  - h5py=3.6
+  - qt=5.12
+  - seaborn=0.11.2
+  - scikit-learn=1.0.2
