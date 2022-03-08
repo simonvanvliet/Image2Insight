@@ -1,4 +1,4 @@
-name: i2i_p0_env_2
+name: i2i_p0_env
 channels:
   - defaults
   - conda-forge
