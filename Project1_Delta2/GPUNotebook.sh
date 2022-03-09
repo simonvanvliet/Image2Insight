@@ -4,23 +4,19 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=64G
 #SBATCH --qos=6hours    # 30min, 6hours, 1day, 1week, infinite  --> 6hours default, slurm is backfilling so be specific with time
-#SBATCH --partition=a100  
+#SBATCH --partition=rtx8000  
 #SBATCH --gres=gpu:1        # --gres=gpu:2 for two GPU, etc
 #SBATCH -o JupLab-%J.oe
 
 ml Java/11.0.3_7
-
+ml FFmpeg
 
 # activate a conda environment of your choice (here we use base)
-#source activate $HOME/mambaforge/envs/i2i_p1_env
-
 eval "$(conda shell.bash hook)"
 
 conda activate delta2_env
 
 export LD_LIBRARY_PATH="$CONDA_PREFIX/lib/"
-
-
 
 ## get tunneling info
 XDG_RUNTIME_DIR=""
