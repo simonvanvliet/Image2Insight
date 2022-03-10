@@ -31,6 +31,8 @@ pip install delta2
 pip install elasticdeform
 ```
 
+Note: this works on the A100 and RTX8000 partitions, for Pascal you will need `cudatoolkit=10`
+
 ## Using Jupyter
 
 Please see [here](https://wiki.biozentrum.unibas.ch/pages/viewpage.action?pageId=100829566) for detailed instructions on how to do this.
